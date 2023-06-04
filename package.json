@@ -1,0 +1,19 @@
+{
+  "name": "emojibar-landing",
+  "version": "1.0.0",
+  "description": "[App Landing Page](https://www.tailwindtoolbox.com/templates/app-landing-page) is an open source, generic App Landing Page template for [Tailwind CSS](https://tailwindcss.com/) created by [Tailwind Toolbox](https://www.tailwindtoolbox.com/).",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css:watch": "npx tailwindcss -i ./src/assets/input.css -o ./src/assets/output.css --watch",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^4.3.9"
+  }
+}
